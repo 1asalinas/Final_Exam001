@@ -6,7 +6,7 @@
 
 
 def performCalculations(value):
-    result = value
+    result = f3(f1((f2(f2(f2(f2(value, value),value),value),value)), value), f2(f2(f1(value, f3(f2(f2(f1(value, value), f1(value, value)), f1(value, value)),value)), value), value))
     return result
 
 
