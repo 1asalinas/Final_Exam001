@@ -6,10 +6,24 @@
     Try running it on some samples to make sure it works
 """
 
+def reverse(text): 
+    return text[::-1] 
+  
+def lower(text):
+    return text.lower()
 
+def replace(text):
+    return text.replace(" ", "")
+    
 def checkisPallendrome(text):
-    result = False
-    return result
+    rev = replace(text)
+    rev = lower(text)
+    rev = reverse(text) 
+  
+    if (text == rev): 
+        return True
+    return False
+
 
 
 def tester(text, expected_result):
