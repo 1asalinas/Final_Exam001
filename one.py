@@ -1,4 +1,4 @@
-""" Pallendrome Checker 
+xt""" Pallendrome Checker 
     For this first problem fix the function
     so that if the input text is a pallendrome, it returns True.
     And if not, it returns false.
@@ -16,8 +16,8 @@ def replace(text):
     return text.replace(" ", "")
     
 def checkisPallendrome(text):
-    rev = replace(text)
-    rev = lower(text)
+    text = replace(text)
+    text = lower(text)
     rev = reverse(text) 
   
     if (text == rev): 
