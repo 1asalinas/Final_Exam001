@@ -1,4 +1,4 @@
-xt""" Pallendrome Checker 
+""" Pallendrome Checker 
     For this first problem fix the function
     so that if the input text is a pallendrome, it returns True.
     And if not, it returns false.
